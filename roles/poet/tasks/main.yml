@@ -1,6 +1,6 @@
 ---
-- include_tasks: create_db.yml
-  tags: [create]
+- import_tasks: create_db.yml
+  tags: [never, create]
 
-- include_tasks: destroy_db.yml
-  tags: [destroy]
+- import_tasks: destroy_db.yml
+  tags: [never, destroy]
