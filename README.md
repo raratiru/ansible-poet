@@ -20,3 +20,8 @@ License
 -------
 
 BSD-3-Clause
+
+Command
+-------
+
+ansible-playbook -l all poet.yml --tags <>,<>

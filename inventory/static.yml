@@ -4,3 +4,8 @@ self:
   hosts:
     localhost:
       ansible_host: 127.0.0.1
+remote:
+  hosts:
+    carmen:
+      ansible_host: 116.203.208.103
+      ansible_user: carmen
