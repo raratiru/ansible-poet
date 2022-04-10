@@ -1,1 +1,3 @@
 *.retry
+*vault.yml
+sample_inventory/100_self.yml

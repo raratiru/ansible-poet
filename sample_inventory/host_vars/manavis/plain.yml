@@ -1,0 +1,6 @@
+---
+# Define variables for all hosts
+# Best practice for vault variables: https://bit.ly/3xdNILB
+
+ansible_user: thanos
+ansible_become_password: "{{ vault_ansible_become_password }}"
