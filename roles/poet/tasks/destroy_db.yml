@@ -1,0 +1,4 @@
+---
+- name: Destroy Db
+  ansible.builtin.debug:
+    msg: Destroy the db

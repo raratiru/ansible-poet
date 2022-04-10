@@ -1,0 +1,6 @@
+---
+# List all variables: ansible -m debug -a 'var=hostvars' all
+self:
+  hosts:
+    localhost:
+      ansible_host: 127.0.0.1

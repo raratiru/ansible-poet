@@ -1,0 +1,4 @@
+---
+- name: Create Db
+  ansible.builtin.debug:
+    msg: Create the db
