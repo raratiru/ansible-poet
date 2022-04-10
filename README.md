@@ -74,5 +74,5 @@ BSD-3-Clause
 Setup
 -------
 * Create an inventory according to sample_inventory
-* Rename sample_100_self.yml to 100_self.yml which is ignored by git and use it at will
+* Rename `sample_100_self.yml` to `100_self.yml` which is ignored by git and use it at will
 * `ansible-playbook -l <hostname> poet.yml --tags test`
