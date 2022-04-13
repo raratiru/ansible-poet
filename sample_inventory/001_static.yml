@@ -1,7 +1,0 @@
----
-cloud:
-  hosts:
-    marulita:
-      ansible_host: x.x.x.x
-    manavis:
-      ansible_host: y.y.y.y

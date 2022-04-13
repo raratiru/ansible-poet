@@ -1,8 +1,0 @@
----
-# List inventory setup: ansible-inventory --list
-# List all variables: ansible -m debug -a 'var=hostvars' all
-
-self:
-  hosts:
-    manavis:
-      ansible_host: 127.0.0.1
