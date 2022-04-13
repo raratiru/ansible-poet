@@ -1,4 +1,4 @@
----.
+---
 # List inventory setup: ansible-inventory --list
 # List all variables: ansible -m debug -a 'var=hostvars' all
 
